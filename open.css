@@ -1,0 +1,58 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    video, canvas {
+      width: 300px;
+      height: 225px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      margin: 10px;
+    }
+    #controls {
+      margin: 20px;
+    }
+    button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin: 5px;
+      cursor: pointer;
+    }
+    #timer {
+      font-size: 18px;
+      font-weight: bold;
+      color: red;
+      margin-top: 10px;
+    }
+    #gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+      gap: 15px;
+    }
+    .media-item {
+      border: 1px solid #999;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #f8f8f8;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .media-item img,
+    .media-item video {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+    }
+    .media-actions {
+      margin-top: 10px;
+    }
+    .media-actions button,
+    .media-actions a {
+      font-size: 13px;
+      margin: 3px;
+      text-decoration: none;
+    }
+ 
